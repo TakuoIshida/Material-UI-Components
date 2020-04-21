@@ -2,11 +2,12 @@ import React, { Component }  from 'react';
 import Button from '@material-ui/core/Button';
 import CardActions from '@material-ui/core/CardActions';
 
+import styles from './Button.module.css';
+
 class Buttons extends Component {
-    
     render() {
         return (
-            <div>
+            <div  className={ styles.container }>
                 <CardActions>
                     <Button >Default</Button>
                     <Button variant="contained" color="primary">Primary</Button>
@@ -16,7 +17,7 @@ class Buttons extends Component {
                     <Button variant="contained" size="large" color="primary" href="#contained-buttons">large Link</Button>
                 </CardActions>
             </div>
-        );
+        )
     }
 }
 

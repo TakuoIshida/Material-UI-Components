@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import { Buttons, Cards, Checkbox, Chips,} from './components';
+import Button from './components/Button/Button';
 
-import styles from './App.module.css';
-
-class App extends React.Component {
+class App extends Component {
 
     render(){
         return (
-            <div className={ styles.container }>
-                <Buttons />
+            <div className="container">
+                <Button />
             </div>
         )
     }

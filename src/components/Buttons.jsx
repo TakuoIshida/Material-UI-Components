@@ -8,8 +8,12 @@ class Buttons extends Component {
         return (
             <div>
                 <CardActions>
-                    <Button size="large" variant="contained" color="primary">OK</Button>
-                    <Button size="small" variant="outlined" color="secondary">Cancel</Button>
+                    <Button >Default</Button>
+                    <Button variant="contained" color="primary">Primary</Button>
+                    <Button variant="outlined" color="secondary"> Secondary</Button>               
+                    <Button variant="contained" disabled>Disabled</Button>
+                    <Button variant="contained" size="small" color="primary" href="#contained-buttons">small Link</Button>
+                    <Button variant="contained" size="large" color="primary" href="#contained-buttons">large Link</Button>
                 </CardActions>
             </div>
         );

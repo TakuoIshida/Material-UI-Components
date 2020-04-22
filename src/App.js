@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import AppBar from './components/AppBar/AppBar';
 import Button from './components/Button/Button';
 import ButtonGroup from './components/ButtonGroup/ButtonGroup';
-
-import styles from './App.module.css';
+import Popper from './components/Popper/Popper';
 
 class App extends Component {
 
@@ -15,6 +14,7 @@ class App extends Component {
                 <AppBar />
                 <ButtonGroup />
                 <AppBar />
+                <Popper />
                 <AppBar />
             </div>
         )

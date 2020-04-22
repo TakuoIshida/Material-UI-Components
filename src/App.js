@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import AppBar from './components/AppBar/AppBar';
 import Button from './components/Button/Button';
-import AppBars from './components/AppBar/AppBar';
+import ButtonGroup from './components/ButtonGroup/ButtonGroup';
 
 import styles from './App.module.css';
 
@@ -9,9 +10,12 @@ class App extends Component {
     render(){
         return (
             <div>
-                <AppBars />
+                <AppBar />
                 <Button />
-                <AppBars />
+                <AppBar />
+                <ButtonGroup />
+                <AppBar />
+                <AppBar />
             </div>
         )
     }

@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import Button from '@material-ui/core/Button';
-import CardActions from '@material-ui/core/CardActions';
 
 import styles from './Button.module.css';
 

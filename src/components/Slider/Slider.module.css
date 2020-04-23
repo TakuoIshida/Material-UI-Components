@@ -1,12 +1,8 @@
 .container {
-    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    background: linear-gradient(45deg, rgb(199, 245, 157) 30%, rgb(225, 241, 74) 90%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 40px 20px !important;
-}
-
-.text {
-    color: white !important;
 }

@@ -9,8 +9,6 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 
-import styles from './Checkbox.module.css';
-
 const GreenCheckbox = withStyles({
   root: {
     color:green[400],

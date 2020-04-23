@@ -4,6 +4,7 @@ import Button from './components/Button/Button';
 import ButtonGroup from './components/ButtonGroup/ButtonGroup';
 import Popper from './components/Popper/Popper';
 import Checkbox from './components/Checkbox/Checkbox';
+import Slider from './components/Slider/Slider'
 
 class App extends Component {
 
@@ -19,7 +20,8 @@ class App extends Component {
                 <AppBar title="Checkbox"/>
                 <Checkbox />
                 <AppBar title="Slider"/>
-                
+                <Slider />
+                <AppBar title="Switch"/>
             </div>
         )
     }

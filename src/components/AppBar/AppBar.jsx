@@ -8,6 +8,10 @@ import MenuIcon from '@material-ui/icons/Menu';
 import styles from './AppBar.module.css';
 
 class AppBars extends Component {
+    constructor(props){
+        super();
+        this.title = props.title;
+    }
     render() {
         return(
             <div className={styles.root}>
@@ -17,7 +21,7 @@ class AppBars extends Component {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" className={styles.title}>
-                        News
+                        {this.title}
                     </Typography>
                     <Button color="inherit">Login</Button>
                     </Toolbar>

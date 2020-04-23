@@ -10,15 +10,16 @@ class App extends Component {
     render(){
         return (
             <div>
-                <AppBar />
+                <AppBar title="Button"/>
                 <Button />
-                <AppBar />
+                <AppBar title="ButtonGroup"/>
                 <ButtonGroup />
-                <AppBar />
+                <AppBar title="Popper"/>
                 <Popper />
-                <AppBar />
+                <AppBar title="Checkbox"/>
                 <Checkbox />
-                <AppBar />
+                <AppBar title="Slider"/>
+                
             </div>
         )
     }

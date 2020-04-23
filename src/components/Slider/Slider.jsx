@@ -68,9 +68,9 @@ export default function ContinuousSlider() {
             <Grid item>
             {
             toggled? 
-            <VolumeUp onClick={soundToggle} disabled={toggled}/>
-              :
             <VolumeOffIcon onClick={soundToggle} disabled={toggled}/>
+              :
+            <VolumeUp onClick={soundToggle} disabled={toggled}/>
             }
             </Grid>
       </Grid>
